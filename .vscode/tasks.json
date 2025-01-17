@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build and Run Library Management System",
+      "type": "shell",
+      "command": "clang++",
+      "args": [
+        "-g",
+        "-std=c++17",
+        "main.cpp",
+        "library.cpp",
+        "transaction.cpp",
+        "user.cpp",
+        "book.cpp",
+        "-o",
+        "main",
+        "&&",
+        "./main"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Builds and runs the Library Management System project.",
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}

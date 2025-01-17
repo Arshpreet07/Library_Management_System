@@ -1,0 +1,64 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/include",
+                "/Library/Developer/CommandLineTools/usr/lib/clang/*/include", 
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include", 
+                "/Users/arshpreet/project1_LibManSys",
+                "/Library/Developer/CommandLineTools/usr/lib/clang/16/include",
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX14.5.sdk/usr/include",
+                "/Library/Developer/CommandLineTools/usr/include",
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX14.5.sdk/System/Library/Frameworks",
+                "/usr/local/opt/llvm/include",
+                "/usr/local/include",
+                "/Library/Developer/CommandLineTools/usr/lib/clang/16/include",
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX14.5.sdk/usr/include",
+                "/Library/Developer/CommandLineTools/usr/include",
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX14.5.sdk/System/Library/Frameworks"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX14.5.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/local/opt/llvm/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-arm64"
+        },
+        {
+            "name": "cpp",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/include",
+                "/Library/Developer/CommandLineTools/usr/include/c++/v1", 
+                "/Library/Developer/CommandLineTools/usr/lib/clang/*/include", 
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include", 
+                "/Users/arshpreet/project1_LibManSys",
+                "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1",
+                "/Library/Developer/CommandLineTools/usr/lib/clang/16/include",
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX14.5.sdk/usr/include",
+                "/Library/Developer/CommandLineTools/usr/include",
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX14.5.sdk/System/Library/Frameworks",
+                "/usr/local/opt/llvm/include",
+                "/usr/local/include",
+                "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1",
+                "/Library/Developer/CommandLineTools/usr/lib/clang/16/include",
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX14.5.sdk/usr/include",
+                "/Library/Developer/CommandLineTools/usr/include",
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX14.5.sdk/System/Library/Frameworks"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX14.5.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/local/opt/llvm/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-arm64"
+        }
+    ],
+    "version": 4
+}

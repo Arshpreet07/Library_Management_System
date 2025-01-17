@@ -1,0 +1,3 @@
+2|title2|author2|genre2|2|false
+1|title1|author1|genre|2000|false
+3|title3|author3|genre3|3|true
